@@ -1,0 +1,339 @@
+body{
+	font-size: 11px;;
+	color: #a0a0a0;
+}
+div#pageone {
+  background: ##eee;
+}
+li{
+	list-style: none;
+	color: #000000;
+	font-weight: 100;
+}
+ul{
+	padding: 0px ;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #eee;
+}
+.ui-header.ui-bar-a {
+  /* background: white; */
+  border: 0;
+}
+.head-man{
+	width: 100%;
+	height: 90px;
+	background: url(../img/bg_01.png);
+	background-size:100% ;
+}
+.Head-Portraits {
+  width: 65px;
+  height: 65px;
+  background: url(../img/icon_01.png) no-repeat;
+  background-size: 100%;
+  float: left;
+  margin: 10px 20px;
+}
+.head-man span {
+  float: left;
+  margin-top: 20px;
+  color: #5d5c58;
+  text-shadow: none;
+  font-weight: 100;
+}
+/* composite appraise */
+.appraise {
+  height: 31px;
+  background: white;
+  text-shadow: none; 
+  border-bottom: 1px solid#d1d1d1;
+  width: 94%;
+  padding: 0px 3%;
+
+}
+.appraise-l {
+  width: 55%;
+  overflow: hidden;
+  float: left;
+}
+span.composite {
+  color: ffaa00;
+  color: #ffaa00;
+}
+.appraise-l ul {
+  float: left;
+  margin-top: 10px;
+}
+.appraise-l ul li{
+	float: left;
+	color:#8d8d8d;;
+}
+li.star {
+  margin-left: 10px;
+}
+.appraise-l ul li b{
+	display: inline-block;
+	width:71px;
+	height: 10px;
+	background: url(../img/icon_06.png);
+	background-size:100% ;
+}
+.appraise-r{
+	width: 45%;
+	overflow: hidden;
+	float: left;
+	  margin-top: 10px;
+}
+.appraise-r ul{
+	float: left;
+}
+
+.appraise-r ul li {
+  float: left;
+  margin-left: 5px;
+    color: #8d8d8d;
+}
+span.appraise-art {
+  color: #90c9e9;
+}
+span.appraise-.service {
+  color: #eb6877;
+}
+/* content */
+.ui-content {
+  margin-top: 10px;
+  background: white;
+  border-top: 1px solid#d1d1d1;
+  border-bottom: 1px solid#d1d1d1;
+  padding: 3% 5%;
+}
+/* footer */
+.ui-footer.ui-bar-a {
+  background: white;
+  border:0px;
+  padding:0px 5%;
+}
+
+
+/* address */
+.address {
+  width: 100%;
+  overflow: hidden;
+    margin-bottom: 5px;
+}
+.address b{
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+	background: url(../img/icon_07.png);
+	background-size: 100%;
+	float: left;
+}
+
+.address ul {
+  float: left;
+  margin-left: 8px;
+}
+
+.address ul li{
+	 float: left;
+	 color: #8d8d8d;
+	 line-height:20px;
+}
+li.Mylink {
+  margin-left: 30px;
+}
+.intro {
+  border-top: 1px solid #d1d1d1;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #d1d1d1;
+}
+.intro b{
+	display: block;
+	width: 14px;
+	height: 15px;
+	background:url(../img/icon_11.png);
+	background-size:100% ;
+	float: left;
+	margin-top: 13px;
+}
+  
+.intro-describe {
+  float: left;
+  width: 95%;
+}
+.intro-describe p{
+	  margin-left: 5px;
+	    color: #8d8d8d;
+		width:100%;
+}
+/*  client appraise  */
+.client {
+  margin-top: 5px;
+  width: 100%;
+  overflow: hidden;
+  padding-top:7px;
+}
+.client b{
+	display: block;
+	width: 14px;
+	height: 13px;
+	background: url(../img/icon_15.png);
+	background-size:100% ;
+	float: left;
+}
+.client span{
+	display: block;
+	float: left;
+	margin-left: 5px;
+	  color: #8d8d8d;
+}
+
+a.more.ui-link {
+  float: right; 
+}
+a.more.ui-link span {
+  display:inline-block;
+  width:18px;
+  height:14px;
+  background:url(../img/icon_09.png) no-repeat;
+  background-size:100% ;
+}
+a.Mylinks.ui-link {
+  display: inline-block;
+  float: right;
+ 
+}
+a.Mylinks.ui-link {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: url(../img/icon_03.png);
+  background-size:100% ;
+  
+}
+
+ul.good-reputation {
+  overflow: hidden;
+}
+
+ul.good-reputation li {
+  color: #707070;
+  text-shadow: none;
+  padding: 10px 0px;
+}
+li.good {
+float: left;
+}
+li.general {
+float: left;
+  margin-left: 32%;
+}
+li.bad {
+  float:right;
+}
+ul.good-reputation li.colour{
+	color:#ac9358;
+	text-decoration:underline;
+}
+.review{
+  width: 100%;
+  border-top: 1px solid #d1d1d1;
+  overflow: hidden;
+  padding: 5px 0px;
+}
+
+.review-headimg{
+	width:15%;
+	height:56px;
+	background:url(../img/icon_01.png) no-repeat 0;
+	background-size:100%;
+	  margin: 10px 0px;
+	  float:left;
+}
+.review-main {
+  float: left;
+  width: 81%;
+  padding-left:4%;
+}
+.review-main p {
+  color: #b3b3b3;
+  text-shadow: none;
+}
+
+.review-main li{
+	float:left;
+}
+.review-main ul{
+	overflow:hidden;
+	margin-top:20px;
+	
+}
+li.user {
+  color: #ac9358;
+  text-shadow: none;
+}
+li.date {
+  float: right;
+   color: #b3b3b3;
+  text-shadow: none;
+}
+.bottom{
+	width:100%;
+	overflow:hidden;
+	position:fixed;
+	bottom:0;
+	background:#1c1c1c;
+}
+.bottom div{
+	float:left;
+	width:33%;
+	height:39px;
+	background:#1c1c1c;
+}
+.bottom div b{
+   display: inline-block;
+   width: 21px;
+   height: 16px;
+   
+}
+.bottom .home b {
+	background:url(../img/icon_12.png) no-repeat;
+    margin-top: 10px;
+    margin-left: 40%;
+	background-size:100%;
+ 
+}
+.bottom .myappraise{	
+	border-left:1px solid #434343;
+	border-right:1px solid #434343;
+	position:relative;
+	}
+.bottom .myappraise b,.bottom .order b {
+  background: url(../img/icon_13.png) no-repeat;
+  margin-top: 10px;
+  position: absolute;
+  background-size: 100%;
+  top: 5%;
+  left: 17%;
+}
+.bottom .myappraise span,.bottom .order span {
+  text-shadow: none;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+}
+.bottom .order{
+	position:relative;
+}
+.ui-footer.ui-bar-a {
+  background: white;
+  border: 0px;
+  padding: 0px 5%;
+  margin-bottom: 40px;
+}
