@@ -1,0 +1,76 @@
+body{
+	font-size: 18px;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.ui-page.ui-body-c.ui-page-active {
+  background: #eeeeee;
+}
+/*content one start*/
+.div-list {
+  width: 90%;
+  background: white;
+  overflow: hidden;
+    padding: 0px 5% 15px 5%;
+  margin-bottom: 10px;
+}
+
+/*Head Portraits*/
+.iCon{
+	width: 25%;
+	height: 90px;
+	background: url(../img/icon_01.png) no-repeat ;
+	background-size:100% ;
+	  float: left;
+	    margin-top: 25px;
+}
+
+/*content right*/
+.iNfo{
+	float: left;
+	  width: 70%;
+  margin-left: 5%;
+}
+.iNfo li{
+	float: left;
+}
+.iNfo .li-l{
+	 font-size:14px;
+	font-weight:700 ;
+}
+.iNfo .li-r{
+	float: right;
+}
+.iNfo .li-r span{
+	font-weight: 700;
+	color: #ffc877;
+	font-size:14px;
+	
+}
+/*review*/
+.iNfo-m {
+  width: 90px;
+  height: 23px;
+  background: url(../img/icon_06.png)no-repeat;
+  background-size:100%;
+    margin-top: 5px;
+}
+/*introduce*/
+.iNfo-b p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.5em;
+    color: #979797;
+}
+/*bgcolor*/
+.ui-content {
+  background: #eee;
+  padding: 0;
+}
